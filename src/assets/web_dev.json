@@ -1,0 +1,50 @@
+[
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg",
+        "title": "HTML5"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg",
+        "title": "CSS3"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+        "title": "Node.js"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg",
+        "title": "Express"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/nestjs/nestjs-original.svg",
+        "title": "Nest"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg",
+        "title": "React"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+        "title": "Redux"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dotnetcore/dotnetcore-original.svg",
+        "title": ".NET Core"
+    },
+    {
+        "src": "https://plugins.jetbrains.com/files/18147/403475/icon/pluginIcon.svg",
+        "title": "EF Core"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg",
+        "title": "MongoDB"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg",
+        "title": "MySQL"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+        "title": "MS SQL"
+    }
+]

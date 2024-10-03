@@ -1,0 +1,26 @@
+[
+    {
+        "project_image": "farmyou.png",
+        "project_title": "Farm You",
+        "project_description": "An e-commerce mock website for buying and selling ugly crops. Users can browse listings, add items to their cart, and complete purchases.",
+        "project_skills": "TypeScript, Nest, GraphQL, TypeORM, MySQL, Docker, GCP",
+        "project_github": "https://github.com/pukkuKim/farmyou_server",
+        "project_link": ""
+    },
+    {
+        "project_image": "vancity.png",
+        "project_title": "VanCity Property Pulse",
+        "project_description": "A mock website that allows potential home buyers to search, view details, and save listed properties of Vancouver.",
+        "project_skills": "JavaScript, React, Redux, Node.js, Express, MongoDB, Oracle Cloud",
+        "project_github": "https://github.com/thekimsplustwo/VanCityPropertyPulse",
+        "project_link": ""
+    },
+    {
+        "project_image": "kgbski.jpeg",
+        "project_title": "KGB SKI",
+        "project_description": "A website for ski and snowboard lessons that allows customers to interact with the service provider to inquire about lessons and ask questions.",
+        "project_skills": "JavaScript, React, Node.js, Express, MySQL, GCP",
+        "project_github": "https://github.com/pukkuKim/Matchao",
+        "project_link": ""
+    }
+]
