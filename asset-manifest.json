@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/KimPukku/static/css/main.14fe9860.css",
+    "main.js": "/KimPukku/static/js/main.5f74aa88.js",
+    "static/media/photo.jpeg": "/KimPukku/static/media/photo.52e42dcd177cebe3a093.jpeg",
+    "static/media/brand-icons.svg": "/KimPukku/static/media/brand-icons.6729d29753e000c17489.svg",
+    "static/media/icons.svg": "/KimPukku/static/media/icons.62d9dae4e0040e81c980.svg",
+    "static/media/Resume.pdf": "/KimPukku/static/media/Resume.a3e3d75dfa46a7b3b92e.pdf",
+    "static/media/resume_graphic1.png": "/KimPukku/static/media/resume_graphic1.b9e89efbe800253c6e8f.png",
+    "static/media/outline-icons.svg": "/KimPukku/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
+    "static/media/icons.eot": "/KimPukku/static/media/icons.a01e3f2d6c83dc3aee17.eot",
+    "static/media/icons.ttf": "/KimPukku/static/media/icons.c656b8caa454ed19b9a2.ttf",
+    "static/media/brand-icons.eot": "/KimPukku/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
+    "static/media/brand-icons.ttf": "/KimPukku/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/brand-icons.woff": "/KimPukku/static/media/brand-icons.cac87dc00c87a5d74711.woff",
+    "static/media/brand-icons.woff2": "/KimPukku/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
+    "static/media/icons.woff": "/KimPukku/static/media/icons.425399f81e4ce7cbd967.woff",
+    "static/media/icons.woff2": "/KimPukku/static/media/icons.38c6d8bab26db77d8c80.woff2",
+    "static/media/outline-icons.eot": "/KimPukku/static/media/outline-icons.752905fa5edf21fc52a1.eot",
+    "static/media/outline-icons.ttf": "/KimPukku/static/media/outline-icons.5367103510b27b784827.ttf",
+    "static/media/flags.png": "/KimPukku/static/media/flags.99f63ae7a743f21ab308.png",
+    "static/media/outline-icons.woff": "/KimPukku/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
+    "static/media/outline-icons.woff2": "/KimPukku/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
+    "static/media/kimpukku.png": "/KimPukku/static/media/kimpukku.20d9ef1fecd0d831c602.png",
+    "static/media/slick.svg": "/KimPukku/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/KimPukku/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/KimPukku/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/KimPukku/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/KimPukku/index.html",
+    "main.14fe9860.css.map": "/KimPukku/static/css/main.14fe9860.css.map",
+    "main.5f74aa88.js.map": "/KimPukku/static/js/main.5f74aa88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14fe9860.css",
+    "static/js/main.5f74aa88.js"
+  ]
+}
