@@ -1,6 +1,6 @@
 # My Personal Website 🌐
 
-This is the repository for my personal website built using React. Please note that this website is not currently optimized for mobile devices and is best viewed on a desktop computer. <a href='https://pukkukim.github.io/kimpukku' target = 'blank'>Link</a>
+This is the repository for my personal website built using React. <a href='https://kimpukku.com' target = 'blank'>Link</a>
 
 ## Table of Contents 📋
 

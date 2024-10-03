@@ -18,7 +18,7 @@ function Nav() {
 
     return (
         <nav className="nav__container__actions">
-            <a className="logoContainer" href="localhost:3000">
+            <a className="logoContainer" href="/">
                 <img className="logo_image" src={logo} />
             </a>
 
