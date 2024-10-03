@@ -1,6 +1,6 @@
 {
-    "homepage": "https://pukkukim.github.io/KimPukku",
-    "name": "my_site",
+    "homepage": "https://kimpukku.com",
+    "name": "kimpukku",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
