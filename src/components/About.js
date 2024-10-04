@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { SiLeetcode } from "react-icons/si";
 
 function About() {
-    const image_src = require("../assets/WithPukku.jpeg");
+    const image_src = require("../assets/photo.jpg");
     return (
         <div className="about">
             <div className="column">

@@ -7,11 +7,27 @@ import Resume from "./Resume";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import axios from "axios";
 
 function App() {
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get(
+                    process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_URL
+                );
+                console.log(response.data);
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        };
+
+        fetchData();
+    }, []);
+
     const particlesInit = useCallback(async (engine) => {
         await loadFull(engine);
     }, []);
