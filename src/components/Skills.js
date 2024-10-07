@@ -45,7 +45,6 @@ class Skills extends Component {
 						</a>
 						<div className="title_text">
 							<p>Languages</p>
-							<span>4 years</span>
 						</div>
 						<a className="drop_icon">
 							<Icon name="dropdown" />
@@ -70,7 +69,6 @@ class Skills extends Component {
 						</a>
 						<div className="title_text">
 							<p>Web Development</p>
-							<span>3 years</span>
 						</div>
 						<a className="drop_icon">
 							<Icon name="dropdown" />
@@ -94,7 +92,6 @@ class Skills extends Component {
 						</a>
 						<div className="title_text">
 							<p>Miscellaneous</p>
-							<span>3 years</span>
 						</div>
 						<a className="drop_icon">
 							<Icon name="dropdown" />

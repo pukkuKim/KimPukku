@@ -17,7 +17,7 @@ function App() {
         const fetchData = async () => {
             try {
                 const response = await axios.get(
-                    process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_URL
+                    process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_1_URL
                 );
                 console.log(response.data);
             } catch (error) {

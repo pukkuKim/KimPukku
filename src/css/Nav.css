@@ -32,6 +32,7 @@
 
 .nav__container__actions a:hover {
 	font-weight: bold;
+	color: #e8c547;
 }
 
 li {
@@ -64,7 +65,7 @@ li {
 		top: 60px;
 		z-index: 100;
 		width: 100%;
-		background-color: rgb(5, 23, 23);
+		background-color: #4f6660;
 		flex-direction: column;
 		padding: 50px;
 		border-radius: 20px;
