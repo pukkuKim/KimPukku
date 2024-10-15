@@ -20,7 +20,7 @@
         "project_title": "KGB SKI",
         "project_description": "A website for ski and snowboard lessons that allows customers to interact with the service provider to inquire about lessons and ask questions.",
         "project_skills": "JavaScript, React, Node.js, Express, MySQL, GCP",
-        "project_github": "https://github.com/pukkuKim/Matchao",
-        "project_link": ""
+        "project_github": "https://github.com/pukkuKim/kgbski",
+        "project_link": "https://pukkukim.github.io/kgbski"
     }
 ]
