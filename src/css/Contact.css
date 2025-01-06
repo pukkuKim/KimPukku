@@ -3,6 +3,7 @@
     border-radius: 20px;
     width: 60%;
     height: 60%;
+    max-width: 1240px;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
     z-index: 4;
     backdrop-filter: blur(1px);

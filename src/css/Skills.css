@@ -1,78 +1,79 @@
 .skills {
-    background-color: #a9957b6a;
-    border-radius: 20px;
-    width: 60%;
-    height: 80%;
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
-    z-index: 4;
-    backdrop-filter: blur(1px);
+	background-color: #a9957b6a;
+	border-radius: 20px;
+	width: 60%;
+	height: 80%;
+	max-width: 1240px;
+	box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
+	z-index: 4;
+	backdrop-filter: blur(1px);
 }
 
 .accordion {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .accordion .title {
-    display: flex;
-    text-align: left;
-    margin-top: 20px;
+	display: flex;
+	text-align: left;
+	margin-top: 20px;
 }
 
 .accordion .title p {
-    font-size: 26px;
-    font-weight: bold;
-    color: #322828;
-    margin-bottom: 0px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #322828;
+	margin-bottom: 0px;
 }
 
 .accordion .title a {
-    margin: 10px 20px;
-    font-size: 2.5rem;
+	margin: 10px 20px;
+	font-size: 2.5rem;
 }
 
 .accordion .title span {
-    color: #322828;
+	color: #322828;
 }
 
 .title_text {
-    width: 80%;
+	width: 80%;
 }
 
 .accordion .title a.drop_icon {
-    margin: 15px 20px;
-    font-size: 1.7rem;
+	margin: 15px 20px;
+	font-size: 1.7rem;
 }
 
 .accordion .content {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .skill_logos {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 768px) {
-    .skills {
-        width: 90%;
-    }
-    .accordion .title p {
-        font-size: 20px;
-        font-weight: bold;
-        color: #322828;
-        margin-bottom: 0px;
-    }
-    .accordion .title a {
-        margin: 10px 20px;
-        font-size: 2rem;
-    }
-    .accordion .title a.drop_icon {
-        margin: 15px 20px;
-        font-size: 1rem;
-    }
+	.skills {
+		width: 90%;
+	}
+	.accordion .title p {
+		font-size: 20px;
+		font-weight: bold;
+		color: #322828;
+		margin-bottom: 0px;
+	}
+	.accordion .title a {
+		margin: 10px 20px;
+		font-size: 2rem;
+	}
+	.accordion .title a.drop_icon {
+		margin: 15px 20px;
+		font-size: 1rem;
+	}
 }

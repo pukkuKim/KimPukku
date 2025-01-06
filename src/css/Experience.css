@@ -1,54 +1,55 @@
 .experience {
-    background-color: #a9957b6a;
-    border-radius: 20px;
-    width: 60%;
-    height: 80%;
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
-    z-index: 4;
-    backdrop-filter: blur(1px);
+	background-color: #a9957b6a;
+	border-radius: 20px;
+	width: 60%;
+	height: 80%;
+	max-width: 1240px;
+	box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
+	z-index: 4;
+	backdrop-filter: blur(1px);
 }
 
 .experienceWrapper {
-    display: flex;
-    height: 80%;
+	display: flex;
+	height: 80%;
 }
 
 .column_75 {
-    width: 70%;
-    height: 100%;
+	width: 70%;
+	height: 100%;
 }
 
 .column_75_exp {
-    margin-top: 5%;
-    text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
+	margin-top: 5%;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .column_25 {
-    width: 28%;
-    height: 100%;
-    margin-left: 1.5%;
+	width: 28%;
+	height: 100%;
+	margin-left: 1.5%;
 }
 
 .column_25_menu {
-    margin-top: 15%;
+	margin-top: 15%;
 }
 
 #edu1,
 #edu2 {
-    color: #4a2323;
-    border-right-width: 1px;
-    border-right-color: #322828;
+	color: #4a2323;
+	border-right-width: 1px;
+	border-right-color: #322828;
 }
 
 #exp1,
 #exp2,
 #exp3,
 #exp4 {
-    color: #004b87;
-    border-right-width: 1px;
-    border-right-color: #322828;
+	color: #004b87;
+	border-right-width: 1px;
+	border-right-color: #322828;
 }
 
 #edu1:hover,
@@ -57,8 +58,8 @@
 #exp2:hover,
 #exp3:hover,
 #exp4:hover {
-    color: white;
-    background-color: #243e3f;
+	color: white;
+	background-color: #243e3f;
 }
 
 #edu1.active,
@@ -67,114 +68,114 @@
 #exp2.active,
 #exp3.active,
 #exp4.active {
-    color: white;
-    background-color: #243e3f;
-    border-right-width: 3px;
+	color: white;
+	background-color: #243e3f;
+	border-right-width: 3px;
 }
 
 .points {
-    color: #322828;
+	color: #322828;
 }
 
 .exp_title {
-    font-size: 22px;
+	font-size: 22px;
 }
 
 .exp_company {
-    font-size: 22px;
-    color: #4183c4;
+	font-size: 22px;
+	color: #4183c4;
 }
 
 .job_header {
-    width: 100%;
-    height: 15%;
-    margin-top: 10%;
-    border-radius: 10px;
+	width: 100%;
+	height: 15%;
+	margin-top: 10%;
+	border-radius: 10px;
 }
 
 .job_logo {
-    margin-top: 7%;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+	margin-top: 7%;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
 }
 
 .ui.large.vertical.menu {
-    width: 100% !important;
+	width: 100% !important;
 }
 
 @media only screen and (max-width: 768px) {
-    .experience {
-        width: 90%;
-        overflow-x: hidden;
-    }
-    .job_header {
-        width: 100%;
-        height: 25%;
-        margin-top: 0;
-        border-radius: 10px;
-    }
-    .job_logo {
-        margin-top: 0;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-    }
-    .experienceWrapper {
-        flex-direction: column;
-        height: 80%;
-    }
-    .column_25 {
-        width: 100%;
-        height: 25%;
-        margin: 0;
-        padding: 0 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    .column_75 {
-        width: 100%;
-        height: 75%;
-    }
-    .column_25_menu {
-        margin-top: 40px;
-        overflow-x: auto;
-    }
-    .temp {
-        font-size: 12px !important;
-    }
-    .exp_title {
-        font-size: 18px;
-    }
-    .exp_company {
-        font-size: 18px;
-    }
-    #edu1,
-    #edu2,
-    #exp1,
-    #exp2,
-    #exp3,
-    #exp4 {
-        color: white;
-        border-bottom-width: 2px;
-        border-right-color: #322828;
-    }
-    #edu1:hover,
-    #edu2:hover,
-    #exp1:hover,
-    #exp2:hover,
-    #exp3:hover,
-    #exp4:hover {
-        background-color: rgb(35, 41, 65);
-    }
-    #edu1.active,
-    #edu2.active,
-    #exp1.active,
-    #exp2.active,
-    #exp3.active,
-    #exp4.active {
-        color: white;
-        background-color: rgb(35, 41, 65);
-        border-bottom-width: 3px;
-    }
+	.experience {
+		width: 90%;
+		overflow-x: hidden;
+	}
+	.job_header {
+		width: 100%;
+		height: 25%;
+		margin-top: 0;
+		border-radius: 10px;
+	}
+	.job_logo {
+		margin-top: 0;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+	}
+	.experienceWrapper {
+		flex-direction: column;
+		height: 80%;
+	}
+	.column_25 {
+		width: 100%;
+		height: 25%;
+		margin: 0;
+		padding: 0 10px;
+		display: flex;
+		flex-direction: column;
+	}
+	.column_75 {
+		width: 100%;
+		height: 75%;
+	}
+	.column_25_menu {
+		margin-top: 40px;
+		overflow-x: auto;
+	}
+	.temp {
+		font-size: 12px !important;
+	}
+	.exp_title {
+		font-size: 18px;
+	}
+	.exp_company {
+		font-size: 18px;
+	}
+	#edu1,
+	#edu2,
+	#exp1,
+	#exp2,
+	#exp3,
+	#exp4 {
+		color: white;
+		border-bottom-width: 2px;
+		border-right-color: #322828;
+	}
+	#edu1:hover,
+	#edu2:hover,
+	#exp1:hover,
+	#exp2:hover,
+	#exp3:hover,
+	#exp4:hover {
+		background-color: rgb(35, 41, 65);
+	}
+	#edu1.active,
+	#edu2.active,
+	#exp1.active,
+	#exp2.active,
+	#exp3.active,
+	#exp4.active {
+		color: white;
+		background-color: rgb(35, 41, 65);
+		border-bottom-width: 3px;
+	}
 }

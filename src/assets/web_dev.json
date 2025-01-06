@@ -36,6 +36,14 @@
         "title": "EF Core"
     },
     {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/django/django-plain.svg",
+        "title": "Django"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/spring/spring-original.svg",
+        "title": "Spring"
+    },
+    {
         "src": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg",
         "title": "MongoDB"
     },
@@ -46,5 +54,9 @@
     {
         "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
         "title": "MS SQL"
+    },
+    {
+        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg",
+        "title": "SQLite"
     }
 ]
