@@ -10,7 +10,7 @@
 	box-shadow: 0px 10px 8px -8px rgba(0, 0, 0, 0.6);
 }
 
-@media only screen and (max-width: 1028px) {
+@media only screen and (max-width: 1240px) {
 	.skill_tile {
 		height: 30px;
 		width: 30px;

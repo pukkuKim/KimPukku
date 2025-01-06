@@ -8,9 +8,9 @@ function Project_card (props) {
                 <img src={props.data.project_image} />
             </div>
             <div className="project-card-bottom">
-                <h1>
+                <h3>
                     {props.data.project_title}
-                </h1>
+                </h3>
                 <p>
                     {props.data.project_description}
                 </p>

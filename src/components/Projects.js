@@ -10,11 +10,11 @@ function Projects() {
     const [isMobileView, setIsMobileView] = useState(false);
 
     const handleResize = () => {
-        setIsMobileView(window.innerWidth <= 768 ? true : false);
+        setIsMobileView(window.innerWidth <= 1024 ? true : false);
     };
 
     useEffect(() => {
-        setIsMobileView(window.innerWidth <= 768 ? true : false);
+        setIsMobileView(window.innerWidth <= 1024 ? true : false);
         window.addEventListener("resize", handleResize);
     }, []);
 
@@ -27,6 +27,7 @@ function Projects() {
         autoplaySpeed: 3000,
         pauseOnHover: true,
     };
+
     return (
         <div className="projects">
             <div className="title_row">

@@ -23,13 +23,14 @@
 .project-card-top img {
 	border-radius: 8px;
 	margin-top: 5%;
-    width: 95%;
+    max-width: 95%;
 	height: 85%;
+    aspect-ratio: 16 / 9;
 }
 
 .project-card-bottom {
 	text-align: left;
-	padding: 5%;
+	padding: 0 5%;
 }
 
 .project-links ul {
@@ -58,15 +59,30 @@
 	color: #f5f5dc;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.project-card-top img {
 		border-radius: 8px;
-		margin-top: 5%;
-		width: 90%;
-		height: 85%;
+		margin: 10% 0;
+		max-width: 90%;
+		height: 80%;
 	}
-
+    .project-card-bottom {
+        margin-top: 10%;
+        padding: 0 15%;
+    }
 	.project-card-bottom h1 {
 		font-size: 22px;
 	}
+}
+
+@media only screen and (max-width: 480px) {
+	.project-card {
+		height: 100%;
+	}
+	.project-card-top img {
+		margin-top: 15%;
+	}
+    .project-card-bottom {
+        margin-top: 1%;
+    }
 }

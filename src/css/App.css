@@ -11,6 +11,18 @@
 	height: 800px;
 }
 
+#about_section, #contact_section {
+    height: 600px;
+}
+
+#projects_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+
 #resume_section {
 	height: 400px;
 }
@@ -71,6 +83,15 @@
 	#navbar {
 		align-items: flex-start;
 	}
+    #about_section {
+        height: 650px;
+    }
+    #contact_section {
+        height: 800px;
+    }
+    #project_section {
+        height: 1000px;
+    }
 	.left_line {
 		margin-right: 10px;
 		margin-top: 25px;
