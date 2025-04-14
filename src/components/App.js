@@ -13,20 +13,20 @@ import { loadFull } from "tsparticles";
 import axios from "axios";
 
 function App() {
-	// useEffect(() => {
-	//     const fetchData = async () => {
-	//         try {
-	//             const response = await axios.get(
-	//                 process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_1_URL
-	//             );
-	//             console.log(response.data);
-	//         } catch (error) {
-	//             console.error("Error fetching data:", error);
-	//         }
-	//     };
+	useEffect(() => {
+	    const fetchData = async () => {
+	        try {
+	            const response = await axios.get(
+	                process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_1_URL
+	            );
+	            console.log(response.data);
+	        } catch (error) {
+	            console.error("Error fetching data:", error);
+	        }
+	    };
 
-	//     fetchData();
-	// }, []);
+	    fetchData();
+	}, []);
 
 	const particlesInit = useCallback(async (engine) => {
 		await loadFull(engine);
@@ -62,9 +62,9 @@ function App() {
 			<section id="projects_section">
 				<Projects />
 			</section>
-			<section id="resume_section">
+			{/* <section id="resume_section">
 				<Resume />
-			</section>
+			</section> */}
 			<section id="contact_section">
 				<Contact />
 			</section>
