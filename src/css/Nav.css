@@ -1,6 +1,7 @@
 .nav__container__actions {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding-left: 2%;
 	padding-right: 2%;
 	flex: 1;
