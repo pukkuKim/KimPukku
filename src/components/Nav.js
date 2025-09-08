@@ -67,7 +67,7 @@ function Nav() {
                         PROJECTS
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link
                         activeClass="active"
                         smooth
@@ -77,7 +77,7 @@ function Nav() {
                     >
                         RESUME
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link
                         activeClass="active"
