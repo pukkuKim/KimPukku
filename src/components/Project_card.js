@@ -1,5 +1,6 @@
 import '../css/Project_card.css'
 import { BsGithub } from "react-icons/bs";
+import { FaHome } from "react-icons/fa";
 
 function Project_card (props) {
     return (
@@ -19,7 +20,8 @@ function Project_card (props) {
                 </p>
                 <div className='project-links'>
                     <ul>
-                        <li className='link_gh'><a target="_blank" href={props.data.project_github}> <BsGithub /> </a></li>
+                        {props.data.project_link && (<li className='link_gh'><a target="_blank" href={props.data.project_link}> <FaHome /> </a></li>)}
+                        {props.data.project_github && (<li className='link_gh'><a target="_blank" href={props.data.project_github}> <BsGithub /> </a></li>)}
                     </ul>
                 </div>                
             </div>

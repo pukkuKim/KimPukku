@@ -1,13 +1,13 @@
 [
     {
         "name": "Inno Foods",
-        "title": "Web Developer",
+        "title": "Software Developer",
         "company": " @ Inno Foods",
         "from": "Jan, 2025",
         "to": "Present",
         "work": [
-            "▹ Build and maintain the company websites, collaborating with the fellow Marketing team members.",
-            "▹ Technologies - PHP, JavaScript, React, Java, Spring Boot, MySQL, AWS"
+            "▹ Build and maintain the company websites, as well as internal applications/workflows.",
+            "▹ Technologies - Python, PHP, JavaScript, React, Java, Spring Boot, MySQL, AWS."
         ],
         "color": "#bdeca3",
         "logo": "inno_logo.png"

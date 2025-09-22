@@ -23,14 +23,19 @@
 .project-card-top img {
 	border-radius: 8px;
 	margin-top: 5%;
-    max-width: 95%;
+	max-width: 95%;
 	height: 85%;
-    aspect-ratio: 16 / 9;
+	aspect-ratio: 16 / 9;
+	opacity: 0.9;
 }
 
 .project-card-bottom {
 	text-align: left;
 	padding: 0 5%;
+}
+
+.project-card-bottom h3 {
+	color: #f5f5dc;
 }
 
 .project-links ul {
@@ -39,24 +44,29 @@
 	display: inline-flex;
 	list-style: none;
 	width: 100%;
+	gap: 5%;
 }
 
 .project-links ul li {
-	margin-left: 20%;
-	margin-right: 20%;
+	/* margin-left: 20%;
+	margin-right: 20%; */
 	font-size: 1.5em;
 	transition: transform 0.1s ease;
 }
 
 .project-links ul li:hover {
-	margin-left: 20%;
-	margin-right: 20%;
+	/* margin-left: 20%;
+	margin-right: 20%; */
 	font-size: 1.5em;
 	transform: scale(1.2);
 }
 
 .project-card-skills {
 	color: #f5f5dc;
+}
+
+p.project-card-skills {
+	margin-bottom: 0 !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -66,10 +76,10 @@
 		max-width: 90%;
 		height: 80%;
 	}
-    .project-card-bottom {
-        margin-top: 10%;
-        padding: 0 15%;
-    }
+	.project-card-bottom {
+		margin-top: 10%;
+		padding: 0 15%;
+	}
 	.project-card-bottom h1 {
 		font-size: 22px;
 	}
@@ -77,12 +87,22 @@
 
 @media only screen and (max-width: 480px) {
 	.project-card {
-		height: 100%;
+		/* height: 100%; */
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 	.project-card-top img {
-		margin-top: 15%;
+		/* margin-top: 5%; */
+		/* margin-bottom: 5%; */
 	}
-    .project-card-bottom {
-        margin-top: 1%;
-    }
+	.project-card-bottom {
+		margin-top: 5%;
+		overflow-y: auto;
+	}
+	.slick-prev {
+		left: -15px !important;
+	}
+	.slick-next {
+		right: -15px !important;
+	}
 }

@@ -1,19 +1,45 @@
 [
     {
+        "project_image": "highpoint.png",
+        "project_title": "The High Point Resort",
+        "project_description": "Website for a resort in Quadra Island, BC where visitors can browse room information, view galleries, and book rooms.",
+        "project_skills": "JavaScript, React, AWS S3",
+        "project_link": "https://thehighpoint.ca"
+    },
+    {
+        "project_image": "inno_fitness.png",
+        "project_title": "Inno Fitness",
+        "project_description": "Internal web application, on which Inno Foods employees can book courts for practices, games, or events.",
+        "project_skills": "Java, Spring Boot, JavaScript, React, Redux, MySQL, AWS (EC2, VPC, S3, CloudFront, RDS), GitHub Actions",
+        "project_link": "https://innofitness.ca"
+    },
+    {
+        "project_image": "wcle.png",
+        "project_title": "West Coast Live Edge",
+        "project_description": "An e-commerce website for luxury furniture where visitors can view and purchase products.",
+        "project_skills": "PHP, jQuery, WooCommerce",
+        "project_link": "https://wcliveedge.com"
+    },
+    {
+        "project_image": "inno.png",
+        "project_title": "Inno Foods",
+        "project_description": "The official website for Inno Foods, Inc.",
+        "project_skills": "PHP, jQuery, MySQL, AWS (Lambda, RDS)",
+        "project_link": "https://innofoods.shop"
+    },
+    {
         "project_image": "farmyou.png",
         "project_title": "Farm You",
         "project_description": "An e-commerce mock website for buying and selling ugly crops. Users can browse listings, add items to their cart, and complete purchases.",
         "project_skills": "TypeScript, Nest, GraphQL, TypeORM, MySQL, Docker, GCP",
-        "project_github": "https://github.com/pukkuKim/farmyou_server",
-        "project_link": ""
+        "project_github": "https://github.com/pukkuKim/farmyou_server"
     },
     {
         "project_image": "vancity.png",
         "project_title": "VanCity Property Pulse",
         "project_description": "A mock website that allows potential home buyers to search, view details, and save listed properties of Vancouver.",
         "project_skills": "JavaScript, React, Redux, Node.js, Express, MongoDB, Oracle Cloud",
-        "project_github": "https://github.com/thekimsplustwo/VanCityPropertyPulse",
-        "project_link": ""
+        "project_github": "https://github.com/thekimsplustwo/VanCityPropertyPulse"
     },
     {
         "project_image": "kgbski.jpeg",

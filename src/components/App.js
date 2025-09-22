@@ -3,31 +3,16 @@ import Nav from "./Nav";
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import Resume from "./Resume";
+// import Resume from "./Resume";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import { useCallback, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import axios from "axios";
+// import axios from "axios";
 
 function App() {
-	useEffect(() => {
-	    const fetchData = async () => {
-	        try {
-	            const response = await axios.get(
-	                process.env.REACT_APP_GOOGLE_CLOUD_FUNCTION_1_URL
-	            );
-	            console.log(response.data);
-	        } catch (error) {
-	            console.error("Error fetching data:", error);
-	        }
-	    };
-
-	    fetchData();
-	}, []);
-
 	const particlesInit = useCallback(async (engine) => {
 		await loadFull(engine);
 	}, []);

@@ -60,15 +60,7 @@
         "title": "PostgreSQL"
     },
     {
-        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg",
-        "title": "SQLite"
-    },
-    {
         "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/wordpress/wordpress-original.svg",
         "title": "WordPress"
-    },
-    {
-        "src": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/woocommerce/woocommerce-original.svg",
-        "title": "WooCommerce"
     }
 ]

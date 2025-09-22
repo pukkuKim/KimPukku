@@ -28,10 +28,6 @@
 		"title": "Python"
 	},
 	{
-		"src": "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/haskell/haskell-original.svg",
-		"title": "Haskell"
-	},
-	{
 		"src": "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/azuresqldatabase/azuresqldatabase-original.svg",
 		"title": "SQL"
 	}
